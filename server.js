@@ -12,7 +12,7 @@ app.use(express.static(__dirname));
 app.listen(process.env.PORT || 5000);
 
 //database connection
-var db = mongoose.connect('mongodb://vipul188:Vipul123@ds061711.mongolab.com:61711/myhmis');
+var db = mongoose.connect('  mongodb:bijal2601:guddu_2010@ds061691.mongolab.com:61691/myhmis');
 
 //appending schema to usermodel
 var UserSchema = new mongoose.Schema({
